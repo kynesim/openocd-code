@@ -1870,6 +1870,17 @@ int target_free_working_area(struct target *target, struct working_area *area)
 	return target_free_working_area_restore(target, area, 1);
 }
 
+static void target_destroy(struct target *target)
+{
+	if (target->type->deinit_target)
+		target->type->deinit_target(target);
+
+	free(target->type);
+	free(target->trace_info);
+	free(target->cmd_name);
+	free(target);
+}
+
 void target_quit(void)
 {
 	struct target_event_callback *pe = target_event_callbacks;
@@ -1888,11 +1899,15 @@ void target_quit(void)
 	}
 	target_timer_callbacks = NULL;
 
-	for (struct target *target = all_targets;
-	     target; target = target->next) {
-		if (target->type->deinit_target)
-			target->type->deinit_target(target);
+	for (struct target *target = all_targets; target;) {
+		struct target *tmp;
+
+		tmp = target->next;
+		target_destroy(target);
+		target = tmp;
 	}
+
+	all_targets = NULL;
 }
 
 /* free resources and restore memory, if restoring memory fails,
@@ -3009,16 +3024,16 @@ static void handle_md_output(struct command_context *cmd_ctx,
 	const char *value_fmt;
 	switch (size) {
 	case 8:
-		value_fmt = "%16.16llx ";
+		value_fmt = "%16.16"PRIx64" ";
 		break;
 	case 4:
-		value_fmt = "%8.8x ";
+		value_fmt = "%8.8"PRIx64" ";
 		break;
 	case 2:
-		value_fmt = "%4.4x ";
+		value_fmt = "%4.4"PRIx64" ";
 		break;
 	case 1:
-		value_fmt = "%2.2x ";
+		value_fmt = "%2.2"PRIx64" ";
 		break;
 	default:
 		/* "can't happen", caller checked */

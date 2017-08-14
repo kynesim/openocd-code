@@ -1,0 +1,190 @@
+@unnchapentry{About}{10001}{About}{1}
+@unnsecentry{What is OpenOCD?}{10001.1}{}{1}
+@unnsecentry{OpenOCD Web Site}{10001.2}{}{2}
+@unnsecentry{Latest User's Guide:}{10001.3}{}{2}
+@unnsecentry{OpenOCD User's Forum}{10001.4}{}{2}
+@unnsecentry{OpenOCD User's Mailing List}{10001.5}{}{2}
+@unnsecentry{OpenOCD IRC}{10001.6}{}{2}
+@numchapentry{OpenOCD Developer Resources}{1}{Developers}{3}
+@numsecentry{OpenOCD Git Repository}{1.1}{}{3}
+@numsecentry{Doxygen Developer Manual}{1.2}{}{3}
+@numsecentry{Gerrit Review System}{1.3}{}{3}
+@numsecentry{OpenOCD Developer Mailing List}{1.4}{}{4}
+@numsecentry{OpenOCD Bug Tracker}{1.5}{}{4}
+@numchapentry{Debug Adapter Hardware}{2}{Debug Adapter Hardware}{5}
+@numsecentry{Choosing a Dongle}{2.1}{}{5}
+@numsecentry{Stand-alone JTAG Probe}{2.2}{}{5}
+@numsecentry{USB FT2232 Based}{2.3}{}{5}
+@numsecentry{USB-JTAG / Altera USB-Blaster compatibles}{2.4}{}{7}
+@numsecentry{USB J-Link based}{2.5}{}{7}
+@numsecentry{USB RLINK based}{2.6}{}{7}
+@numsecentry{USB ST-LINK based}{2.7}{}{8}
+@numsecentry{USB TI/Stellaris ICDI based}{2.8}{}{8}
+@numsecentry{USB CMSIS-DAP based}{2.9}{}{8}
+@numsecentry{USB Other}{2.10}{}{8}
+@numsecentry{IBM PC Parallel Printer Port Based}{2.11}{}{9}
+@numsecentry{Other...}{2.12}{}{10}
+@numchapentry{About Jim-Tcl}{3}{About Jim-Tcl}{11}
+@numchapentry{Running}{4}{Running}{12}
+@numsecentry{Simple setup, no customization}{4.1}{}{12}
+@numsecentry{What OpenOCD does as it starts}{4.2}{}{13}
+@numchapentry{OpenOCD Project Setup}{5}{OpenOCD Project Setup}{14}
+@numsecentry{Hooking up the JTAG Adapter}{5.1}{}{14}
+@numsecentry{Project Directory}{5.2}{}{15}
+@numsecentry{Configuration Basics}{5.3}{}{15}
+@numsecentry{User Config Files}{5.4}{}{16}
+@numsecentry{Project-Specific Utilities}{5.5}{}{17}
+@numsecentry{Target Software Changes}{5.6}{}{18}
+@numsecentry{Target Hardware Setup}{5.7}{}{19}
+@numchapentry{Config File Guidelines}{6}{Config File Guidelines}{21}
+@numsecentry{Interface Config Files}{6.1}{}{21}
+@numsecentry{Board Config Files}{6.2}{}{21}
+@numsubsecentry{Communication Between Config files}{6.2.1}{}{22}
+@numsubsecentry{Variable Naming Convention}{6.2.2}{}{23}
+@numsubsecentry{The reset-init Event Handler}{6.2.3}{}{23}
+@numsubsecentry{JTAG Clock Rate}{6.2.4}{}{24}
+@numsubsecentry{The init_board procedure}{6.2.5}{}{24}
+@numsecentry{Target Config Files}{6.3}{}{25}
+@numsubsecentry{Default Value Boiler Plate Code}{6.3.1}{}{25}
+@numsubsecentry{Adding TAPs to the Scan Chain}{6.3.2}{}{26}
+@numsubsecentry{Add CPU targets}{6.3.3}{}{27}
+@numsubsecentry{Define CPU targets working in SMP}{6.3.4}{}{27}
+@numsubsecentry{Chip Reset Setup}{6.3.5}{}{28}
+@numsubsecentry{The init_targets procedure}{6.3.6}{}{29}
+@numsubsecentry{The init_target_events procedure}{6.3.7}{}{29}
+@numsubsecentry{ARM Core Specific Hacks}{6.3.8}{}{30}
+@numsubsecentry{Internal Flash Configuration}{6.3.9}{}{30}
+@numsecentry{Translating Configuration Files}{6.4}{}{30}
+@numchapentry{Server Configuration}{7}{Server Configuration}{32}
+@numsecentry{Configuration Stage}{7.1}{}{32}
+@numsecentry{Entering the Run Stage}{7.2}{}{32}
+@numsecentry{TCP/IP Ports}{7.3}{}{33}
+@numsecentry{GDB Configuration}{7.4}{}{34}
+@numsecentry{Event Polling}{7.5}{}{34}
+@numchapentry{Debug Adapter Configuration}{8}{Debug Adapter Configuration}{36}
+@numsecentry{Interface Configuration}{8.1}{}{36}
+@numsecentry{Interface Drivers}{8.2}{}{37}
+@numsecentry{Transport Configuration}{8.3}{}{46}
+@numsubsecentry{JTAG Transport}{8.3.1}{}{46}
+@numsubsecentry{SWD Transport}{8.3.2}{}{47}
+@numsubsecentry{SPI Transport}{8.3.3}{}{47}
+@numsecentry{JTAG Speed}{8.4}{}{47}
+@numchapentry{Reset Configuration}{9}{Reset Configuration}{49}
+@numsecentry{Types of Reset}{9.1}{}{49}
+@numsecentry{SRST and TRST Issues}{9.2}{}{49}
+@numsecentry{Commands for Handling Resets}{9.3}{}{50}
+@numsecentry{Custom Reset Handling}{9.4}{}{52}
+@numchapentry{TAP Declaration}{10}{TAP Declaration}{54}
+@numsecentry{Scan Chains}{10.1}{}{54}
+@numsecentry{TAP Names}{10.2}{}{55}
+@numsecentry{TAP Declaration Commands}{10.3}{}{55}
+@numsecentry{Other TAP commands}{10.4}{}{57}
+@numsecentry{TAP Events}{10.5}{}{57}
+@numsecentry{Enabling and Disabling TAPs}{10.6}{}{57}
+@numsecentry{Autoprobing}{10.7}{}{58}
+@numchapentry{CPU Configuration}{11}{CPU Configuration}{60}
+@numsecentry{Target List}{11.1}{}{60}
+@numsecentry{Target CPU Types}{11.2}{}{61}
+@numsecentry{Target Configuration}{11.3}{}{62}
+@numsecentry{Other $target_name Commands}{11.4}{}{64}
+@numsecentry{Target Events}{11.5}{}{65}
+@numchapentry{Flash Commands}{12}{Flash Commands}{69}
+@numsecentry{Flash Configuration Commands}{12.1}{}{69}
+@numsecentry{Erasing, Reading, Writing to Flash}{12.2}{}{70}
+@numsecentry{Other Flash commands}{12.3}{}{72}
+@numsecentry{Flash Driver List}{12.4}{}{72}
+@numsubsecentry{External Flash}{12.4.1}{}{73}
+@numsubsecentry{Internal Flash (Microcontrollers)}{12.4.2}{}{75}
+@numsecentry{NAND Flash Commands}{12.5}{}{91}
+@numsubsecentry{NAND Configuration Commands}{12.5.1}{}{92}
+@numsubsecentry{Erasing, Reading, Writing to NAND Flash}{12.5.2}{}{93}
+@numsubsecentry{Other NAND commands}{12.5.3}{}{95}
+@numsubsecentry{NAND Driver List}{12.5.4}{}{95}
+@numsecentry{mFlash}{12.6}{}{97}
+@numsubsecentry{mFlash Configuration}{12.6.1}{}{97}
+@numsubsecentry{mFlash commands}{12.6.2}{}{97}
+@numchapentry{Flash Programming}{13}{Flash Programming}{99}
+@numchapentry{PLD/FPGA Commands}{14}{PLD/FPGA Commands}{100}
+@numsecentry{PLD/FPGA Configuration and Commands}{14.1}{}{100}
+@numsecentry{PLD/FPGA Drivers, Options, and Commands}{14.2}{}{100}
+@numchapentry{General Commands}{15}{General Commands}{101}
+@numsecentry{Server Commands}{15.1}{}{101}
+@numsecentry{Target State handling}{15.2}{}{102}
+@numsecentry{I/O Utilities}{15.3}{}{104}
+@numsecentry{Memory access commands}{15.4}{}{104}
+@numsecentry{Image loading commands}{15.5}{}{105}
+@numsecentry{Breakpoint and Watchpoint commands}{15.6}{}{106}
+@numsecentry{Misc Commands}{15.7}{}{106}
+@numchapentry{Architecture and Core Commands}{16}{Architecture and Core Commands}{108}
+@numsecentry{ARM Hardware Tracing}{16.1}{}{108}
+@numsubsecentry{ETM Configuration}{16.1.1}{}{108}
+@numsubsecentry{ETM Trace Operation}{16.1.2}{}{110}
+@numsubsecentry{Trace Port Drivers}{16.1.3}{}{111}
+@numsecentry{Generic ARM}{16.2}{}{112}
+@numsecentry{ARMv4 and ARMv5 Architecture}{16.3}{}{113}
+@numsubsecentry{ARM7 and ARM9 specific commands}{16.3.1}{}{113}
+@numsubsecentry{ARM720T specific commands}{16.3.2}{}{113}
+@numsubsecentry{ARM9 specific commands}{16.3.3}{}{114}
+@numsubsecentry{ARM920T specific commands}{16.3.4}{}{114}
+@numsubsecentry{ARM926ej-s specific commands}{16.3.5}{}{114}
+@numsubsecentry{ARM966E specific commands}{16.3.6}{}{115}
+@numsubsecentry{XScale specific commands}{16.3.7}{}{115}
+@numsecentry{ARMv6 Architecture}{16.4}{}{117}
+@numsubsecentry{ARM11 specific commands}{16.4.1}{}{117}
+@numsecentry{ARMv7 Architecture}{16.5}{}{118}
+@numsubsecentry{ARMv7 Debug Access Port (DAP) specific commands}{16.5.1}{}{118}
+@numsubsecentry{ARMv7-A specific commands}{16.5.2}{}{119}
+@numsubsecentry{ARMv7-R specific commands}{16.5.3}{}{119}
+@numsubsecentry{ARMv7-M specific commands}{16.5.4}{}{119}
+@numsubsecentry{Cortex-M specific commands}{16.5.5}{}{121}
+@numsecentry{Intel Architecture}{16.6}{}{121}
+@numsubsecentry{x86 32-bit specific commands}{16.6.1}{}{122}
+@numsecentry{OpenRISC Architecture}{16.7}{}{122}
+@numsubsecentry{TAP and Debug Unit selection commands}{16.7.1}{}{122}
+@numsubsecentry{Registers commands}{16.7.2}{}{122}
+@numsecentry{Software Debug Messages and Tracing}{16.8}{}{123}
+@numchapentry{JTAG Commands}{17}{JTAG Commands}{125}
+@numsecentry{Low Level JTAG Commands}{17.1}{}{125}
+@numsecentry{TAP state names}{17.2}{}{127}
+@numchapentry{Boundary Scan Commands}{18}{Boundary Scan Commands}{128}
+@numsecentry{SVF: Serial Vector Format}{18.1}{}{128}
+@numsecentry{XSVF: Xilinx Serial Vector Format}{18.2}{}{128}
+@numchapentry{Utility Commands}{19}{Utility Commands}{129}
+@numsecentry{RAM testing}{19.1}{}{129}
+@numsecentry{Firmware recovery helpers}{19.2}{}{129}
+@numchapentry{TFTP}{20}{TFTP}{130}
+@numchapentry{GDB and OpenOCD}{21}{GDB and OpenOCD}{131}
+@numsecentry{Connecting to GDB}{21.1}{}{131}
+@numsecentry{Sample GDB session startup}{21.2}{}{131}
+@numsecentry{Configuring GDB for OpenOCD}{21.3}{}{132}
+@numsecentry{Programming using GDB}{21.4}{}{133}
+@numsecentry{Using OpenOCD SMP with GDB}{21.5}{}{133}
+@numsecentry{RTOS Support}{21.6}{}{134}
+@numchapentry{Tcl Scripting API}{22}{Tcl Scripting API}{136}
+@numsecentry{API rules}{22.1}{}{136}
+@numsecentry{Internal low-level Commands}{22.2}{}{136}
+@numsecentry{OpenOCD specific Global Variables}{22.3}{}{137}
+@numsecentry{Tcl RPC server}{22.4}{}{137}
+@numsecentry{Tcl RPC server notifications}{22.5}{}{137}
+@numsecentry{Tcl RPC server trace output}{22.6}{}{138}
+@numchapentry{FAQ}{23}{FAQ}{139}
+@numchapentry{Tcl Crash Course}{24}{Tcl Crash Course}{144}
+@numsecentry{Tcl Rule #1}{24.1}{}{144}
+@numsecentry{Tcl Rule #1b}{24.2}{}{144}
+@numsecentry{Per Rule #1 - All Results are strings}{24.3}{}{144}
+@numsecentry{Tcl Quoting Operators}{24.4}{}{144}
+@numsecentry{Consequences of Rule 1/2/3/4}{24.5}{}{145}
+@numsubsecentry{Tokenisation & Execution.}{24.5.1}{}{145}
+@numsubsecentry{Command Execution}{24.5.2}{}{145}
+@numsubsecentry{The FOR command}{24.5.3}{}{146}
+@numsubsecentry{FOR command implementation}{24.5.4}{}{146}
+@numsecentry{OpenOCD Tcl Usage}{24.6}{}{147}
+@numsubsecentry{source and find commands}{24.6.1}{}{147}
+@numsubsecentry{format command}{24.6.2}{}{148}
+@numsubsecentry{Body or Inlined Text}{24.6.3}{}{148}
+@numsubsecentry{Global Variables}{24.6.4}{}{149}
+@numsecentry{Other Tcl Hacks}{24.7}{}{149}
+@appentry{The GNU Free Documentation License.}{A}{License}{150}
+@unnsecentry{ADDENDUM: How to use this License for your documents}{10001.1}{}{156}
+@unnchapentry{OpenOCD Concept Index}{10002}{OpenOCD Concept Index}{157}
+@unnchapentry{Command and Driver Index}{10003}{Command and Driver Index}{160}

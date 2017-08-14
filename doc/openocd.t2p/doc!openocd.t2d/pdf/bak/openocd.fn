@@ -1,0 +1,469 @@
+\entry{init}{32}{\code {init}}
+\entry{jtag_init}{32}{\code {jtag_init}}
+\entry{gdb_port}{33}{\code {gdb_port}}
+\entry{tcl_port}{33}{\code {tcl_port}}
+\entry{telnet_port}{33}{\code {telnet_port}}
+\entry{gdb_breakpoint_override}{34}{\code {gdb_breakpoint_override}}
+\entry{gdb_flash_program}{34}{\code {gdb_flash_program}}
+\entry{gdb_memory_map}{34}{\code {gdb_memory_map}}
+\entry{gdb_report_data_abort}{34}{\code {gdb_report_data_abort}}
+\entry{gdb_target_description}{34}{\code {gdb_target_description}}
+\entry{gdb_save_tdesc}{34}{\code {gdb_save_tdesc}}
+\entry{poll}{35}{\code {poll}}
+\entry{interface}{36}{\code {interface}}
+\entry{interface_list}{36}{\code {interface_list}}
+\entry{interface transports}{36}{\code {interface transports}}
+\entry{adapter_name}{36}{\code {adapter_name}}
+\entry{amt_jtagaccel}{37}{\code {amt_jtagaccel}}
+\entry{parport_port}{37}{\code {parport_port}}
+\entry{rtck}{37}{\code {rtck}}
+\entry{arm-jtag-ew}{37}{\code {arm-jtag-ew}}
+\entry{armjtagew_info}{37}{\code {armjtagew_info}}
+\entry{at91rm9200}{37}{\code {at91rm9200}}
+\entry{cmsis-dap}{37}{\code {cmsis-dap}}
+\entry{cmsis_dap_vid_pid}{37}{\code {cmsis_dap_vid_pid}}
+\entry{cmsis_dap_serial}{37}{\code {cmsis_dap_serial}}
+\entry{cmsis-dap info}{37}{\code {cmsis-dap info}}
+\entry{dummy}{37}{\code {dummy}}
+\entry{ep93xx}{37}{\code {ep93xx}}
+\entry{ftdi}{38}{\code {ftdi}}
+\entry{ftdi_vid_pid}{38}{\code {ftdi_vid_pid}}
+\entry{ftdi_device_desc}{38}{\code {ftdi_device_desc}}
+\entry{ftdi_serial}{38}{\code {ftdi_serial}}
+\entry{ftdi_location}{39}{\code {ftdi_location}}
+\entry{ftdi_channel}{39}{\code {ftdi_channel}}
+\entry{ftdi_layout_init}{39}{\code {ftdi_layout_init}}
+\entry{ftdi_layout_signal}{39}{\code {ftdi_layout_signal}}
+\entry{ftdi_set_signal}{39}{\code {ftdi_set_signal}}
+\entry{ftdi_get_signal}{40}{\code {ftdi_get_signal}}
+\entry{ftdi_tdo_sample_edge}{40}{\code {ftdi_tdo_sample_edge}}
+\entry{remote_bitbang}{40}{\code {remote_bitbang}}
+\entry{remote_bitbang_port}{40}{\code {remote_bitbang_port}}
+\entry{remote_bitbang_host}{40}{\code {remote_bitbang_host}}
+\entry{usb_blaster}{40}{\code {usb_blaster}}
+\entry{usb_blaster_device_desc}{41}{\code {usb_blaster_device_desc}}
+\entry{usb_blaster_vid_pid}{41}{\code {usb_blaster_vid_pid}}
+\entry{usb_blaster_pin}{41}{\code {usb_blaster_pin}}
+\entry{usb_blaster_lowlevel_driver}{41}{\code {usb_blaster_lowlevel_driver}}
+\entry{usb_blaster_firmware}{41}{\code {usb_blaster_firmware}}
+\entry{gw16012}{41}{\code {gw16012}}
+\entry{parport_port}{41}{\code {parport_port}}
+\entry{jlink}{41}{\code {jlink}}
+\entry{jlink hwstatus}{42}{\code {jlink hwstatus}}
+\entry{jlink freemem}{42}{\code {jlink freemem}}
+\entry{jlink jtag}{42}{\code {jlink jtag}}
+\entry{jlink config}{42}{\code {jlink config}}
+\entry{jlink config targetpower}{42}{\code {jlink config targetpower}}
+\entry{jlink config mac}{42}{\code {jlink config mac}}
+\entry{jlink config ip}{42}{\code {jlink config ip}}
+\entry{jlink config usb}{42}{\code {jlink config usb}}
+\entry{jlink config reset}{42}{\code {jlink config reset}}
+\entry{jlink config write}{42}{\code {jlink config write}}
+\entry{jlink emucom write <channel> <data>}{42}{\code {jlink emucom write <channel> <data>}}
+\entry{jlink emucom read <channel> <length>}{42}{\code {jlink emucom read <channel> <length>}}
+\entry{jlink usb}{43}{\code {jlink usb}}
+\entry{jlink serial}{43}{\code {jlink serial}}
+\entry{parport}{43}{\code {parport}}
+\entry{parport_cable}{43}{\code {parport_cable}}
+\entry{parport_port}{43}{\code {parport_port}}
+\entry{parport_toggling_time}{44}{\code {parport_toggling_time}}
+\entry{parport_write_on_exit}{44}{\code {parport_write_on_exit}}
+\entry{presto}{44}{\code {presto}}
+\entry{presto_serial}{44}{\code {presto_serial}}
+\entry{rlink}{44}{\code {rlink}}
+\entry{usbprog}{45}{\code {usbprog}}
+\entry{vsllink}{45}{\code {vsllink}}
+\entry{hla}{45}{\code {hla}}
+\entry{hla_device_desc}{45}{\code {hla_device_desc}}
+\entry{hla_serial}{45}{\code {hla_serial}}
+\entry{hla_layout}{45}{\code {hla_layout}}
+\entry{hla_vid_pid}{45}{\code {hla_vid_pid}}
+\entry{hla_command}{45}{\code {hla_command}}
+\entry{opendous}{45}{\code {opendous}}
+\entry{ulink}{45}{\code {ulink}}
+\entry{ZY1000}{45}{\code {ZY1000}}
+\entry{power}{45}{\code {power}}
+\entry{bcm2835gpio}{46}{\code {bcm2835gpio}}
+\entry{openjtag}{46}{\code {openjtag}}
+\entry{openjtag_variant}{46}{\code {openjtag_variant}}
+\entry{openjtag_device_desc}{46}{\code {openjtag_device_desc}}
+\entry{transport list}{46}{\code {transport list}}
+\entry{transport select}{46}{\code {transport select}}
+\entry{swd newdap}{47}{\code {swd newdap}}
+\entry{swd wcr trn prescale}{47}{\code {swd wcr trn prescale}}
+\entry{adapter_khz}{48}{\code {adapter_khz}}
+\entry{jtag_rclk}{48}{\code {jtag_rclk}}
+\entry{adapter_nsrst_assert_width}{50}{\code {adapter_nsrst_assert_width}}
+\entry{adapter_nsrst_delay}{50}{\code {adapter_nsrst_delay}}
+\entry{jtag_ntrst_assert_width}{51}{\code {jtag_ntrst_assert_width}}
+\entry{jtag_ntrst_delay}{51}{\code {jtag_ntrst_delay}}
+\entry{reset_config}{51}{\code {reset_config}}
+\entry{init_reset}{52}{\code {init_reset}}
+\entry{jtag arp_init}{53}{\code {jtag arp_init}}
+\entry{jtag arp_init-reset}{53}{\code {jtag arp_init-reset}}
+\entry{jtag names}{55}{\code {jtag names}}
+\entry{scan_chain}{55}{\code {scan_chain}}
+\entry{jtag newtap}{55}{\code {jtag newtap}}
+\entry{jtag cget}{57}{\code {jtag cget}}
+\entry{jtag configure}{57}{\code {jtag configure}}
+\entry{jtag tapdisable}{58}{\code {jtag tapdisable}}
+\entry{jtag tapenable}{58}{\code {jtag tapenable}}
+\entry{jtag tapisenabled}{58}{\code {jtag tapisenabled}}
+\entry{target current}{60}{\code {target current}}
+\entry{target names}{60}{\code {target names}}
+\entry{targets}{60}{\code {targets}}
+\entry{target types}{61}{\code {target types}}
+\entry{target create}{62}{\code {target create}}
+\entry{$target_name configure}{63}{\code {$target_name configure}}
+\entry{$target_name arp_examine}{64}{\code {$target_name arp_examine}}
+\entry{$target_name arp_halt}{64}{\code {$target_name arp_halt}}
+\entry{$target_name arp_poll}{64}{\code {$target_name arp_poll}}
+\entry{$target_name arp_reset}{64}{\code {$target_name arp_reset}}
+\entry{$target_name arp_waitstate}{64}{\code {$target_name arp_waitstate}}
+\entry{$target_name array2mem}{64}{\code {$target_name array2mem}}
+\entry{$target_name mem2array}{64}{\code {$target_name mem2array}}
+\entry{$target_name cget}{64}{\code {$target_name cget}}
+\entry{$target_name curstate}{65}{\code {$target_name curstate}}
+\entry{$target_name eventlist}{65}{\code {$target_name eventlist}}
+\entry{$target_name invoke-event}{65}{\code {$target_name invoke-event}}
+\entry{$target_name mdw}{65}{\code {$target_name mdw}}
+\entry{$target_name mdh}{65}{\code {$target_name mdh}}
+\entry{$target_name mdb}{65}{\code {$target_name mdb}}
+\entry{$target_name mww}{65}{\code {$target_name mww}}
+\entry{$target_name mwh}{65}{\code {$target_name mwh}}
+\entry{$target_name mwb}{65}{\code {$target_name mwb}}
+\entry{flash bank}{69}{\code {flash bank}}
+\entry{flash banks}{70}{\code {flash banks}}
+\entry{flash list}{70}{\code {flash list}}
+\entry{flash probe}{70}{\code {flash probe}}
+\entry{flash erase_sector}{70}{\code {flash erase_sector}}
+\entry{flash erase_address}{71}{\code {flash erase_address}}
+\entry{flash fillw}{71}{\code {flash fillw}}
+\entry{flash fillh}{71}{\code {flash fillh}}
+\entry{flash fillb}{71}{\code {flash fillb}}
+\entry{flash write_bank}{71}{\code {flash write_bank}}
+\entry{flash read_bank}{71}{\code {flash read_bank}}
+\entry{flash verify_bank}{71}{\code {flash verify_bank}}
+\entry{flash write_image}{71}{\code {flash write_image}}
+\entry{flash erase_check}{72}{\code {flash erase_check}}
+\entry{flash info}{72}{\code {flash info}}
+\entry{flash protect}{72}{\code {flash protect}}
+\entry{flash padded_value}{72}{\code {flash padded_value}}
+\entry{program}{72}{\code {program}}
+\entry{virtual}{72}{\code {virtual}}
+\entry{cfi}{73}{\code {cfi}}
+\entry{jtagspi}{73}{\code {jtagspi}}
+\entry{lpcspifi}{74}{\code {lpcspifi}}
+\entry{stmsmi}{74}{\code {stmsmi}}
+\entry{mrvlqspi}{74}{\code {mrvlqspi}}
+\entry{aduc702x}{75}{\code {aduc702x}}
+\entry{ambiqmicro}{75}{\code {ambiqmicro}}
+\entry{ambiqmicro mass_erase}{75}{\code {ambiqmicro mass_erase}}
+\entry{ambiqmicro page_erase}{75}{\code {ambiqmicro page_erase}}
+\entry{ambiqmicro program_otp}{75}{\code {ambiqmicro program_otp}}
+\entry{at91samd}{75}{\code {at91samd}}
+\entry{at91samd chip-erase}{76}{\code {at91samd chip-erase}}
+\entry{at91samd set-security}{76}{\code {at91samd set-security}}
+\entry{at91samd eeprom}{76}{\code {at91samd eeprom}}
+\entry{at91samd bootloader}{76}{\code {at91samd bootloader}}
+\entry{at91samd dsu_reset_deassert}{76}{\code {at91samd dsu_reset_deassert}}
+\entry{at91sam3}{76}{\code {at91sam3}}
+\entry{at91sam3 gpnvm}{77}{\code {at91sam3 gpnvm}}
+\entry{at91sam3 gpnvm clear}{77}{\code {at91sam3 gpnvm clear}}
+\entry{at91sam3 gpnvm set}{77}{\code {at91sam3 gpnvm set}}
+\entry{at91sam3 gpnvm show}{77}{\code {at91sam3 gpnvm show}}
+\entry{at91sam3 info}{77}{\code {at91sam3 info}}
+\entry{at91sam3 slowclk}{77}{\code {at91sam3 slowclk}}
+\entry{at91sam4}{77}{\code {at91sam4}}
+\entry{at91sam4l}{77}{\code {at91sam4l}}
+\entry{at91sam4l smap_reset_deassert}{78}{\code {at91sam4l smap_reset_deassert}}
+\entry{atsamv}{78}{\code {atsamv}}
+\entry{at91sam7}{78}{\code {at91sam7}}
+\entry{at91sam7 gpnvm}{78}{\code {at91sam7 gpnvm}}
+\entry{avr}{78}{\code {avr}}
+\entry{efm32}{79}{\code {efm32}}
+\entry{fm3}{79}{\code {fm3}}
+\entry{fm4}{79}{\code {fm4}}
+\entry{kinetis}{79}{\code {kinetis}}
+\entry{kinetis fcf_source}{79}{\code {kinetis fcf_source}}
+\entry{kinetis fopt}{80}{\code {kinetis fopt}}
+\entry{kinetis mdm check_security}{80}{\code {kinetis mdm check_security}}
+\entry{kinetis mdm halt}{80}{\code {kinetis mdm halt}}
+\entry{kinetis mdm mass_erase}{80}{\code {kinetis mdm mass_erase}}
+\entry{kinetis nvm_partition}{80}{\code {kinetis nvm_partition}}
+\entry{kinetis mdm reset}{80}{\code {kinetis mdm reset}}
+\entry{kinetis disable_wdog}{80}{\code {kinetis disable_wdog}}
+\entry{kinetis_ke}{81}{\code {kinetis_ke}}
+\entry{kinetis_ke mdm check_security}{81}{\code {kinetis_ke mdm check_security}}
+\entry{kinetis_ke mdm mass_erase}{81}{\code {kinetis_ke mdm mass_erase}}
+\entry{kinetis_ke disable_wdog}{81}{\code {kinetis_ke disable_wdog}}
+\entry{lpc2000}{81}{\code {lpc2000}}
+\entry{lpc2000 part_id}{82}{\code {lpc2000 part_id}}
+\entry{lpc288x}{82}{\code {lpc288x}}
+\entry{lpc2900}{82}{\code {lpc2900}}
+\entry{lpc2900 signature}{82}{\code {lpc2900 signature}}
+\entry{lpc2900 read_custom}{82}{\code {lpc2900 read_custom}}
+\entry{lpc2900 password}{83}{\code {lpc2900 password}}
+\entry{lpc2900 write_custom}{83}{\code {lpc2900 write_custom}}
+\entry{lpc2900 secure_sector}{83}{\code {lpc2900 secure_sector}}
+\entry{lpc2900 secure_jtag}{83}{\code {lpc2900 secure_jtag}}
+\entry{mdr}{83}{\code {mdr}}
+\entry{niietcm4}{84}{\code {niietcm4}}
+\entry{niietcm4 uflash_read_byte}{84}{\code {niietcm4 uflash_read_byte}}
+\entry{niietcm4 uflash_write_byte}{84}{\code {niietcm4 uflash_write_byte}}
+\entry{niietcm4 uflash_full_erase}{84}{\code {niietcm4 uflash_full_erase}}
+\entry{niietcm4 uflash_erase}{84}{\code {niietcm4 uflash_erase}}
+\entry{niietcm4 uflash_protect_check}{84}{\code {niietcm4 uflash_protect_check}}
+\entry{niietcm4 uflash_protect}{84}{\code {niietcm4 uflash_protect}}
+\entry{niietcm4 bflash_info_remap}{85}{\code {niietcm4 bflash_info_remap}}
+\entry{niietcm4 extmem_cfg}{85}{\code {niietcm4 extmem_cfg}}
+\entry{niietcm4 service_mode_erase}{85}{\code {niietcm4 service_mode_erase}}
+\entry{niietcm4 driver_info}{85}{\code {niietcm4 driver_info}}
+\entry{nrf51}{85}{\code {nrf51}}
+\entry{nrf51 mass_erase}{85}{\code {nrf51 mass_erase}}
+\entry{ocl}{85}{\code {ocl}}
+\entry{pic32mx}{85}{\code {pic32mx}}
+\entry{pic32mx pgm_word}{85}{\code {pic32mx pgm_word}}
+\entry{pic32mx unlock}{85}{\code {pic32mx unlock}}
+\entry{psoc4}{86}{\code {psoc4}}
+\entry{psoc4 flash_autoerase}{86}{\code {psoc4 flash_autoerase}}
+\entry{psoc4 mass_erase}{86}{\code {psoc4 mass_erase}}
+\entry{sim3x}{86}{\code {sim3x}}
+\entry{sim3x mass_erase}{86}{\code {sim3x mass_erase}}
+\entry{sim3x lock}{86}{\code {sim3x lock}}
+\entry{stellaris}{86}{\code {stellaris}}
+\entry{stellaris recover}{87}{\code {stellaris recover}}
+\entry{stm32f1x}{87}{\code {stm32f1x}}
+\entry{stm32f1x lock}{87}{\code {stm32f1x lock}}
+\entry{stm32f1x unlock}{87}{\code {stm32f1x unlock}}
+\entry{stm32f1x options_read}{87}{\code {stm32f1x options_read}}
+\entry{stm32f1x options_write}{87}{\code {stm32f1x options_write}}
+\entry{stm32f2x}{87}{\code {stm32f2x}}
+\entry{stm32f2x lock}{88}{\code {stm32f2x lock}}
+\entry{stm32f2x unlock}{88}{\code {stm32f2x unlock}}
+\entry{stm32f2x options_read}{88}{\code {stm32f2x options_read}}
+\entry{stm32f2x options_write}{88}{\code {stm32f2x options_write}}
+\entry{stm32lx}{88}{\code {stm32lx}}
+\entry{stm32lx mass_erase}{88}{\code {stm32lx mass_erase}}
+\entry{str7x}{88}{\code {str7x}}
+\entry{str7x disable_jtag}{89}{\code {str7x disable_jtag}}
+\entry{str9x}{89}{\code {str9x}}
+\entry{str9x flash_config}{89}{\code {str9x flash_config}}
+\entry{str9xpec}{89}{\code {str9xpec}}
+\entry{str9xpec disable_turbo}{90}{\code {str9xpec disable_turbo}}
+\entry{str9xpec enable_turbo}{90}{\code {str9xpec enable_turbo}}
+\entry{str9xpec lock}{90}{\code {str9xpec lock}}
+\entry{str9xpec part_id}{90}{\code {str9xpec part_id}}
+\entry{str9xpec options_cmap}{90}{\code {str9xpec options_cmap}}
+\entry{str9xpec options_lvdsel}{90}{\code {str9xpec options_lvdsel}}
+\entry{str9xpec options_lvdthd}{90}{\code {str9xpec options_lvdthd}}
+\entry{str9xpec options_lvdwarn}{90}{\code {str9xpec options_lvdwarn}}
+\entry{str9xpec options_read}{90}{\code {str9xpec options_read}}
+\entry{str9xpec options_write}{90}{\code {str9xpec options_write}}
+\entry{str9xpec unlock}{90}{\code {str9xpec unlock}}
+\entry{tms470}{90}{\code {tms470}}
+\entry{tms470 flash_keyset}{91}{\code {tms470 flash_keyset}}
+\entry{tms470 osc_mhz}{91}{\code {tms470 osc_mhz}}
+\entry{tms470 plldis}{91}{\code {tms470 plldis}}
+\entry{xmc1xxx}{91}{\code {xmc1xxx}}
+\entry{xmc4xxx}{91}{\code {xmc4xxx}}
+\entry{xmc4xxx flash_password}{91}{\code {xmc4xxx flash_password}}
+\entry{xmc4xxx flash_unprotect}{91}{\code {xmc4xxx flash_unprotect}}
+\entry{nand device}{92}{\code {nand device}}
+\entry{nand list}{92}{\code {nand list}}
+\entry{nand probe}{93}{\code {nand probe}}
+\entry{nand dump}{93}{\code {nand dump}}
+\entry{nand erase}{93}{\code {nand erase}}
+\entry{nand write}{93}{\code {nand write}}
+\entry{nand verify}{94}{\code {nand verify}}
+\entry{nand check_bad_blocks}{95}{\code {nand check_bad_blocks}}
+\entry{nand info}{95}{\code {nand info}}
+\entry{nand raw_access}{95}{\code {nand raw_access}}
+\entry{at91sam9}{95}{\code {at91sam9}}
+\entry{at91sam9 cle}{96}{\code {at91sam9 cle}}
+\entry{at91sam9 ale}{96}{\code {at91sam9 ale}}
+\entry{at91sam9 rdy_busy}{96}{\code {at91sam9 rdy_busy}}
+\entry{at91sam9 ce}{96}{\code {at91sam9 ce}}
+\entry{davinci}{96}{\code {davinci}}
+\entry{lpc3180}{96}{\code {lpc3180}}
+\entry{lpc3180 select}{96}{\code {lpc3180 select}}
+\entry{mx3}{96}{\code {mx3}}
+\entry{mxc}{97}{\code {mxc}}
+\entry{mxc biswap}{97}{\code {mxc biswap}}
+\entry{orion}{97}{\code {orion}}
+\entry{s3c2410}{97}{\code {s3c2410}}
+\entry{s3c2412}{97}{\code {s3c2412}}
+\entry{s3c2440}{97}{\code {s3c2440}}
+\entry{s3c2443}{97}{\code {s3c2443}}
+\entry{s3c6400}{97}{\code {s3c6400}}
+\entry{mflash bank}{97}{\code {mflash bank}}
+\entry{mflash config pll}{97}{\code {mflash config pll}}
+\entry{mflash config boot}{98}{\code {mflash config boot}}
+\entry{mflash config storage}{98}{\code {mflash config storage}}
+\entry{mflash dump}{98}{\code {mflash dump}}
+\entry{mflash probe}{98}{\code {mflash probe}}
+\entry{mflash write}{98}{\code {mflash write}}
+\entry{pld device}{100}{\code {pld device}}
+\entry{pld devices}{100}{\code {pld devices}}
+\entry{pld load}{100}{\code {pld load}}
+\entry{virtex2}{100}{\code {virtex2}}
+\entry{virtex2 read_stat}{100}{\code {virtex2 read_stat}}
+\entry{exit}{101}{\code {exit}}
+\entry{help}{101}{\code {help}}
+\entry{sleep}{101}{\code {sleep}}
+\entry{shutdown}{101}{\code {shutdown}}
+\entry{debug_level}{101}{\code {debug_level}}
+\entry{echo}{102}{\code {echo}}
+\entry{log_output}{102}{\code {log_output}}
+\entry{add_script_search_dir}{102}{\code {add_script_search_dir}}
+\entry{bindto}{102}{\code {bindto}}
+\entry{reg}{102}{\code {reg}}
+\entry{halt}{102}{\code {halt}}
+\entry{wait_halt}{102}{\code {wait_halt}}
+\entry{resume}{103}{\code {resume}}
+\entry{step}{103}{\code {step}}
+\entry{reset}{103}{\code {reset}}
+\entry{reset run}{103}{\code {reset run}}
+\entry{reset halt}{103}{\code {reset halt}}
+\entry{reset init}{103}{\code {reset init}}
+\entry{soft_reset_halt}{103}{\code {soft_reset_halt}}
+\entry{append_file}{104}{\code {append_file}}
+\entry{cat}{104}{\code {cat}}
+\entry{cp}{104}{\code {cp}}
+\entry{ip}{104}{\code {ip}}
+\entry{ls}{104}{\code {ls}}
+\entry{mac}{104}{\code {mac}}
+\entry{meminfo}{104}{\code {meminfo}}
+\entry{peek}{104}{\code {peek}}
+\entry{poke}{104}{\code {poke}}
+\entry{rm}{104}{\code {rm}}
+\entry{trunc}{104}{\code {trunc}}
+\entry{mdw}{105}{\code {mdw}}
+\entry{mdh}{105}{\code {mdh}}
+\entry{mdb}{105}{\code {mdb}}
+\entry{mww}{105}{\code {mww}}
+\entry{mwh}{105}{\code {mwh}}
+\entry{mwb}{105}{\code {mwb}}
+\entry{dump_image}{105}{\code {dump_image}}
+\entry{fast_load}{105}{\code {fast_load}}
+\entry{fast_load_image}{105}{\code {fast_load_image}}
+\entry{load_image}{105}{\code {load_image}}
+\entry{test_image}{106}{\code {test_image}}
+\entry{verify_image}{106}{\code {verify_image}}
+\entry{verify_image_checksum}{106}{\code {verify_image_checksum}}
+\entry{bp}{106}{\code {bp}}
+\entry{rbp}{106}{\code {rbp}}
+\entry{rwp}{106}{\code {rwp}}
+\entry{wp}{106}{\code {wp}}
+\entry{profile}{106}{\code {profile}}
+\entry{version}{107}{\code {version}}
+\entry{virt2phys}{107}{\code {virt2phys}}
+\entry{etm config}{108}{\code {etm config}}
+\entry{etm info}{109}{\code {etm info}}
+\entry{etm status}{109}{\code {etm status}}
+\entry{etm tracemode}{109}{\code {etm tracemode}}
+\entry{etm trigger_debug}{109}{\code {etm trigger_debug}}
+\entry{etm analyze}{110}{\code {etm analyze}}
+\entry{etm dump}{110}{\code {etm dump}}
+\entry{etm image}{110}{\code {etm image}}
+\entry{etm load}{110}{\code {etm load}}
+\entry{etm start}{110}{\code {etm start}}
+\entry{etm stop}{110}{\code {etm stop}}
+\entry{dummy}{111}{\code {dummy}}
+\entry{etm_dummy config}{111}{\code {etm_dummy config}}
+\entry{etb}{111}{\code {etb}}
+\entry{etb config}{111}{\code {etb config}}
+\entry{etb trigger_percent}{111}{\code {etb trigger_percent}}
+\entry{oocd_trace}{111}{\code {oocd_trace}}
+\entry{oocd_trace config}{111}{\code {oocd_trace config}}
+\entry{oocd_trace resync}{111}{\code {oocd_trace resync}}
+\entry{oocd_trace status}{111}{\code {oocd_trace status}}
+\entry{arm core_state}{112}{\code {arm core_state}}
+\entry{arm disassemble}{112}{\code {arm disassemble}}
+\entry{arm mcr}{112}{\code {arm mcr}}
+\entry{arm mrc}{112}{\code {arm mrc}}
+\entry{arm reg}{112}{\code {arm reg}}
+\entry{arm semihosting}{112}{\code {arm semihosting}}
+\entry{arm semihosting_fileio}{112}{\code {arm semihosting_fileio}}
+\entry{arm7_9 dbgrq}{113}{\code {arm7_9 dbgrq}}
+\entry{arm7_9 dcc_downloads}{113}{\code {arm7_9 dcc_downloads}}
+\entry{arm7_9 fast_memory_access}{113}{\code {arm7_9 fast_memory_access}}
+\entry{arm720t cp15}{113}{\code {arm720t cp15}}
+\entry{arm9 vector_catch}{114}{\code {arm9 vector_catch}}
+\entry{arm920t cache_info}{114}{\code {arm920t cache_info}}
+\entry{arm920t cp15}{114}{\code {arm920t cp15}}
+\entry{arm920t cp15i}{114}{\code {arm920t cp15i}}
+\entry{arm920t read_cache}{114}{\code {arm920t read_cache}}
+\entry{arm920t read_mmu}{114}{\code {arm920t read_mmu}}
+\entry{arm926ejs cache_info}{114}{\code {arm926ejs cache_info}}
+\entry{arm966e cp15}{115}{\code {arm966e cp15}}
+\entry{xscale analyze_trace}{116}{\code {xscale analyze_trace}}
+\entry{xscale cache_clean_address}{116}{\code {xscale cache_clean_address}}
+\entry{xscale cache_info}{116}{\code {xscale cache_info}}
+\entry{xscale cp15}{116}{\code {xscale cp15}}
+\entry{xscale debug_handler}{116}{\code {xscale debug_handler}}
+\entry{xscale dcache}{116}{\code {xscale dcache}}
+\entry{xscale dump_trace}{116}{\code {xscale dump_trace}}
+\entry{xscale icache}{116}{\code {xscale icache}}
+\entry{xscale mmu}{116}{\code {xscale mmu}}
+\entry{xscale trace_buffer}{117}{\code {xscale trace_buffer}}
+\entry{xscale trace_image}{117}{\code {xscale trace_image}}
+\entry{xscale vector_catch}{117}{\code {xscale vector_catch}}
+\entry{xscale vector_table}{117}{\code {xscale vector_table}}
+\entry{arm11 memwrite burst}{117}{\code {arm11 memwrite burst}}
+\entry{arm11 memwrite error_fatal}{117}{\code {arm11 memwrite error_fatal}}
+\entry{arm11 step_irq_enable}{118}{\code {arm11 step_irq_enable}}
+\entry{arm11 vcr}{118}{\code {arm11 vcr}}
+\entry{dap apid}{118}{\code {dap apid}}
+\entry{dap apreg}{118}{\code {dap apreg}}
+\entry{dap apsel}{118}{\code {dap apsel}}
+\entry{dap baseaddr}{118}{\code {dap baseaddr}}
+\entry{dap info}{118}{\code {dap info}}
+\entry{dap memaccess}{118}{\code {dap memaccess}}
+\entry{dap apcsw}{118}{\code {dap apcsw}}
+\entry{dap ti_be_32_quirks}{118}{\code {dap ti_be_32_quirks}}
+\entry{cortex_a cache_info}{119}{\code {cortex_a cache_info}}
+\entry{cortex_a dacrfixup [on|off]}{119}{\code {cortex_a dacrfixup [\option {on}|\option {off}]}}
+\entry{cortex_a dbginit}{119}{\code {cortex_a dbginit}}
+\entry{cortex_a smp_off}{119}{\code {cortex_a smp_off}}
+\entry{cortex_a smp_on}{119}{\code {cortex_a smp_on}}
+\entry{cortex_a smp_gdb}{119}{\code {cortex_a smp_gdb}}
+\entry{cortex_a maskisr}{119}{\code {cortex_a maskisr}}
+\entry{cache_config l2x}{119}{\code {cache_config l2x}}
+\entry{cortex_r dbginit}{119}{\code {cortex_r dbginit}}
+\entry{cortex_r maskisr}{119}{\code {cortex_r maskisr}}
+\entry{tpiu config}{119}{\code {tpiu config}}
+\entry{itm port}{120}{\code {itm port}}
+\entry{itm ports}{121}{\code {itm ports}}
+\entry{cortex_m maskisr}{121}{\code {cortex_m maskisr}}
+\entry{cortex_m vector_catch}{121}{\code {cortex_m vector_catch}}
+\entry{cortex_m reset_config}{121}{\code {cortex_m reset_config}}
+\entry{x86_32 idw}{122}{\code {x86_32 idw}}
+\entry{x86_32 idh}{122}{\code {x86_32 idh}}
+\entry{x86_32 idb}{122}{\code {x86_32 idb}}
+\entry{x86_32 iww}{122}{\code {x86_32 iww}}
+\entry{x86_32 iwh}{122}{\code {x86_32 iwh}}
+\entry{x86_32 iwb}{122}{\code {x86_32 iwb}}
+\entry{tap_select}{122}{\code {tap_select}}
+\entry{du_select}{122}{\code {du_select}}
+\entry{addreg}{122}{\code {addreg}}
+\entry{readgroup}{123}{\code {readgroup}}
+\entry{target_request debugmsgs}{123}{\code {target_request debugmsgs}}
+\entry{trace history}{124}{\code {trace history}}
+\entry{trace point}{124}{\code {trace point}}
+\entry{drscan}{125}{\code {drscan}}
+\entry{flush_count}{126}{\code {flush_count}}
+\entry{irscan}{126}{\code {irscan}}
+\entry{jtag_reset}{126}{\code {jtag_reset}}
+\entry{pathmove}{126}{\code {pathmove}}
+\entry{runtest}{126}{\code {runtest}}
+\entry{verify_ircapture}{126}{\code {verify_ircapture}}
+\entry{verify_jtag}{127}{\code {verify_jtag}}
+\entry{svf}{128}{\code {svf}}
+\entry{xsvf}{128}{\code {xsvf}}
+\entry{memTestDataBus}{129}{\code {memTestDataBus}}
+\entry{memTestAddressBus}{129}{\code {memTestAddressBus}}
+\entry{memTestDevice}{129}{\code {memTestDevice}}
+\entry{runAllMemTests}{129}{\code {runAllMemTests}}
+\entry{tcl_notifications}{137}{\code {tcl_notifications}}
+\entry{tcl_trace}{138}{\code {tcl_trace}}
