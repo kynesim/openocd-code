@@ -340,6 +340,7 @@ int jtag_call_event_callbacks(enum jtag_event event)
 
 static void jtag_checks(void)
 {
+    printf("jtag_trst = %d\n", jtag_trst);
 	assert(jtag_trst == 0);
 }
 
